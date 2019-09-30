@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setAppCacheEnabled(true);
         webView.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
         webView.loadUrl("https://ecoconnect.ng/login.html");
